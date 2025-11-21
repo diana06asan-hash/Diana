@@ -1,4 +1,4 @@
-<jcloze version="6.3">
+ = """<jcloze version="6.3">
 <item>
 <title>Fruits JCloze Test</title>
 <text>
@@ -47,4 +47,4 @@ Sometimes I drink [orange juice] for breakfast.
 </cloze>
 </options>
 </item>
-</jcloze>
+</jcloze>"""
