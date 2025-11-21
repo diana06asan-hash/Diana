@@ -1,0 +1,50 @@
+<jcloze version="6.3">
+<item>
+<title>Fruits JCloze Test</title>
+<text>
+I like to eat [apple], [banana], and [orange].
+My favorite fruit is [apple] because it is sweet.
+I never eat [grapes] in the morning.
+Sometimes I drink [orange juice] for breakfast.
+[Watermelon] is very refreshing in summer.
+</text>
+<options>
+<cloze>
+<answer>apple</answer>
+<answer>banana</answer>
+<answer>orange</answer>
+<answer>grapes</answer>
+</cloze>
+<cloze>
+<answer>apple</answer>
+<answer>banana</answer>
+<answer>orange</answer>
+<answer>grapes</answer>
+</cloze>
+<cloze>
+<answer>apple</answer>
+<answer>banana</answer>
+<answer>orange</answer>
+<answer>grapes</answer>
+</cloze>
+<cloze>
+<answer>apple</answer>
+<answer>banana</answer>
+<answer>orange</answer>
+<answer>grapes</answer>
+</cloze>
+<cloze>
+<answer>grapes</answer>
+<answer>orange juice</answer>
+<answer>watermelon</answer>
+<answer>banana</answer>
+</cloze>
+<cloze>
+<answer>watermelon</answer>
+<answer>orange juice</answer>
+<answer>apple</answer>
+<answer>banana</answer>
+</cloze>
+</options>
+</item>
+</jcloze>
