@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fruits JCloze Test</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #FFFACD;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    color: #FF4500;
+  }
+  .cloze {
+    font-weight: bold;
+    color: #006400;
+    background-color: #F0E68C;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  .timer {
+    font-size: 1.3em;
+    color: #FF0000;
+    margin-top: 10px;
+  }
+  img {
+    max-width: 350px;
+    margin: 15px 0;
+    border: 4px solid #FFD700;
+    border-radius: 8px;
+  }
+</style>
+</head>
+<body>
+<h1>Fruits JCloze Test</h1>
+<img src="https://i.imgur.com/3y7G2pI.jpg" alt="Fruits">
+<p>Fill in the blanks with the correct words:</p>
+<p>
+I like to eat <span class="cloze">_____</span>, <span class="cloze">_____</span>, and <span class="cloze">_____</span>.<br>
+My favorite fruit is <span class="cloze">_____</span> because it is sweet.<br>
+I never eat <span class="cloze">_____</span> in the morning.<br>
+Sometimes I drink <span class="cloze">_____</span> for breakfast.<br>
+<span class="cloze">_____</span> is very refreshing in summer.
+</p>
+
+<p class="timer">Time left: <span id="time">90</span> seconds</p>
+
+<script>
+let time = 90;
+let timer = setInterval(() => {
+  time--;
+  document.getElementById("time").innerText = time;
+  if (time <= 0) clearInterval(timer);
+}, 1000);
+</script>
+</body>
+</html>
